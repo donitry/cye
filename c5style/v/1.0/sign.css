@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+body {}
+.head .head-con{zoom:1;margin: 0 auto; _margin:auto 150px;}
+.head .head-con .w1000{width:1000px}
+.head .user-ed{width:250px}
+.main .main-con{width:auto; margin:auto; _margin:auto 150px; max-width:1150px; min-width:1100px; padding-top:20px}
+
+
+/*input:required, input:valid , input:invalid{border:0 none; outline: 0 none;
+ -webkit-box-shadow:none; -moz-box-shadow:none; -ms-box-shadow:none; -o-box-shadow:none; box-shadow: none;}*/
+.main{background: url("../../r/page/main-bg.gif") repeat scroll 0 0 transparent}
+/*Login*/
+
+.login-main{width:820px; margin: 0 auto; background: url(../../r/sign/login-bgimg.jpg) left 60px no-repeat;padding:30px 0}
+.login-box{ width:400px; float: right}
+.login-box .login-con{padding:20px; border-left:1px solid #d0d0d0; border-right:1px solid #d0d0d0;background-color: #fff}
+.login-box .login-top,.login-box .login-fot{ width:400px; height: 4px; overflow: hidden}
+.login-box .login-top{ background: url(https://login.zhubajie.com/v5style/r/sign/login-top.jpg)}
+.login-box .login-fot{ background: url(https://login.zhubajie.com/v5style/r/sign/login-fot.jpg)}
+.login-con .tit{color:#333; font-size:18px}
+.login-con .tit .u{ display: inline-block;width:13px; height: 16px; background: url(https://login.zhubajie.com/v5style/r/sign/icon.gif) 0 -102px; margin-right: 5px; overflow: hidden; vertical-align: middle}
+.login-con .controls{ margin:20px 0 0 0px; float: none}
+.login-con .controls input{width:340px}
+.login-con .chek{margin:20px 0; color:#bbb}
+.login-con .chek input{width:auto; margin-right: 5px}
+.login-con .sub-btn{ text-align: center}
+.login-con .sub-btn button.max-butn{padding:2px 35px 5px}
+.login-con .sub-btn .text{ display: block;color:#999; margin-top: 5px}
+.login-con .sub-btn .text a{text-decoration: underline}
+.login-select,.login-select a{color:#666}
+.login-select{border-top:1px solid #e1e1e1; margin-top: 15px;padding-top:15px; _line-height: 16px}
+
+/*Register*/
+
+
+/*02 sign*/
+.p40{padding:40px}
+.bcf-brc,.sign-box{background-color: #fff; margin: 0 auto}
+.sign-box{width:920px;padding:40px}
+.sign-left{ width:615px; border-right: 1px solid #e1e1e1; float: left; padding-bottom: 80px}
+.sign-left .tit{font-size: 26px; font-weight: normal; color:#545454; margin-bottom: 35px; line-height: 26px; font-family:"微软雅黑",Microsoft YaHei}
+.sign-left .tit a{font-size:12px; font-family:"微软雅黑",Microsoft YaHei; margin-left: 10px; text-decoration: underline}
+.sign-left .control-group{}
+.sign-left .control-group .control-label{font-size:14px; color:#333; width:100px}
+.sign-left .control-group .controls input{padding:9px 6px; width:200px}
+.sign-left .control-group .yzm{float: left}
+.sign-left .control-group .yzm img{float: left; margin: 0 15px}
+.sign-left .control-group .yzm span{ float: left; margin-top: 15px; color:#666}
+.sign-left .xieyi{ margin-left: 105px; color:#333}
+.sign-left .xieyi input{width:auto; float: left}
+.sign-left .xieyi span{float: left; _margin-top: 2px}
+.sign-left .sub-btn{ margin:24px 0 0 120px}
+.sign-left .sub-btn button{font-weight: bold; padding:2px 28px 5px}
+.sign-right{ float:left; width:264px; padding-left:40px}
+.sign-right .tit{font-size:18px; font-weight: normal; margin-bottom: 20px;line-height: 25px; font-family:"微软雅黑",Microsoft YaHei}
+.sign-right .sign-item li{ margin-top: 8px}
+.sign-right .in-login{ margin-top: 20px;color:#666; font-size:14px}
+.sign-right .login-sub-btn button{font-weight: bold; padding:2px 28px 5px; margin-top: 10px}
+.sign-box .help-inline{display: none}
+
+.th-login .sign-left{padding-bottom: 60px; position: relative}
+.th-login .sign-right{}
+.th-login .sign-right .tit{font-size: 24px; margin-bottom: 15px}
+.th-login .sign-right .no-key{font-size:18px; font-weight: normal; font-family:"微软雅黑",Microsoft YaHei;color: #535353}
+.th-login .sign-right .sub-btn{ margin-top: 20px}
+.th-login .sign-right .sub-btn .{font-weight: bold}

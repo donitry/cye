@@ -1,0 +1,196 @@
+@CHARSET "UTF-8";
+
+/* CSS Document1*/
+.head{background:#fff; height:80px; width:100%; min-width:1000px;z-index:25}
+.head .head-con{width:auto; margin:auto; _margin:auto 150px; max-width:1150px; min-width:1045px; _width:1045px; padding-top:13px}
+.head-con h1{float:left; width:220px}
+.head-con a.logo{width:154px; height:54px; text-indent:-10000px; display:block; position: relative;
+	background-image:url(../r/page/zbj-logox1.png);
+	background-image:-webkit-image-set(url(../r/page/zbj-logox1.png) 1x,url(../r/page/zbj-logox2.png) 2x);
+	background-repeat:no-repeat;
+}
+.head-con a.logo:hover{zoom:1}
+.head-con a.logo em{display:block; background:url(../r/page/one.png) no-repeat; width:83px; height:41px; position:absolute; right:-90px; top:8px}
+.head .head-scrll-con{text-align: center;font-size:22px;font-family: "微软雅黑",Microsoft YaHei;padding-top: 20px}
+.head-scrll-con a{font-weight: bold}
+.nav-mo{width:300px; float:left; font-size:15px;_font-size:14px; padding:17px 15px 0 34px; font-family: "微软雅黑",Microsoft YaHei}
+.nav-mo a.tit{color:#333; font-weight:bold; display:block; float:left; margin:0 6px;margin:0 4px\9;font-family:"微软雅黑",Microsoft YaHei}
+.nav-mo a.cur{border-bottom:2px solid #ffb257}
+.nav-mo a:hover{color:#f60}
+.nav-mo .nav-lis{float:left; position:relative; z-index:20; margin:0 5px; width:33px; height:20px}
+.nav-mo .nav-w-lis{width:80px; margin:0 0 0 5px}
+.nav-mo .nav-x-lis{width:80px; margin:0 10px 0 0}
+.nav-mo .nav-lis a.n-c{color:#333;padding:5px 0; position:relative; top:-5px; display:inline-block; background:#fff; z-index:5; height:15px;font-weight:bold;font-family:"微软雅黑",Microsoft YaHei}
+.nav-mo .nav-lis a.n-c:hover{color:#f60}
+.nav-mo .nav-lis ul{position:absolute; left:0; color:#666; top:21px; border:1px solid #bababa; padding:3px 0px;width:100px; font-size:12px;display:none;background:#fff;-webkit-box-shadow: 1px 1px 2px #efefef;-moz-box-shadow: 1px 1px 2px #efefef;box-shadow: 1px 1px 2px #efefef}
+/*.nav-mo .nav-lis:hover ul,.nav-mo .nav-lis.hover ul{display:block;line-height:24px }*/
+/*.nav-mo .nav-lis:hover a.n-c,.nav-mo .nav-lis.hover a.n-c{border:1px solid #bababa; border-width:1px 1px 0; height:17px;-webkit-box-shadow: 1px -1px 1px #efefef; -moz-box-shadow: 1px -1px 1px #efefef;box-shadow: 1px -1px 1px #efefef}*/
+.nav-mo .nav-lis li a{color:#666}
+.nav-mo .nav-lis li a:hover{color:#f60}
+
+/* 圈子 */
+.quan-head{ position: relative; border: 1px solid #fff; padding-top: 5px; display: inline-block; top: -6px;
+    margin-right: -50px;/** 修复因用户缩放文字而引起的下移操作 **/
+}
+.quan-head:hover{border: 1px solid #FFC059; border-bottom: #fff;}
+.quan-head em{ font-weight: bold; background: #fff; padding: 2px 8px 5px 8px; position: relative; top: 0; z-index: 14;}
+.quan-head em a{ color: #333;  font-family:"\5FAE\8F6F\96C5\9ED1";}
+.quan-head:hover .quan-menu,.quan-head.hover .quan-menu{ display: block;}
+.quan-menu{ position: absolute; display: none; width: 90px; left: -1px; top: 25px; z-index: 13; background: #fff;
+    border: 1px solid #FFC059;padding-top: 5px; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.quan-menu li{ text-indent: 3px; padding: 3px 5px;}
+.quan-menu li a{color:#333; text-decoration: none; font-family:"\5FAE\8F6F\96C5\9ED1";}
+
+.head .search{float:left;width:218px; height:30px; margin:12px 0 0; position:relative; z-index:12;border:1px solid #dcdcdc;border-top-color:#c2c2c2;
+-moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.head .search input.text{border:0; padding:7px 10px; width:170px; height:14px; position:absolute; top:0; left:0; z-index:2}
+.head .search input.button{border:0; padding:7px 10px; width:36px; background:#fff url(../r/page/pic.gif) no-repeat 10px 7px; height:30px; cursor:pointer; position:absolute; top:0; right:0; z-index:2}
+.head .search input.focus{ background-position: 10px -792px}
+.head .search em{display:block; position:absolute; z-index:3; top:5px; left:12px; color:#999; zoom:1}
+
+.head .search .about-ser{position:absolute; z-index:20;width:240px;border:1px solid #ccc; background:#fff; padding:10px; left:-1px; top:34px; color:#333;
+				  border-radius: 6px 6px 6px 6px;
+  				  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); display:none}
+.head .search .about-ser li{border-bottom:1px solid #f8f8f8; padding-bottom:8px; margin-bottom:8px; color:#999}
+.head .search .about-ser li.end{border-bottom:0; padding-bottom:0; margin-bottom:0}
+.head .search .about-ser p,.head .search .about-ser dl{padding:2px 5px; cursor:pointer}				  
+.head .search .about-ser p:hover,.head .search .about-ser dl:hover,.head .search .about-ser .cur{background:#f0f0f0}
+.head .search .about-ser .title{color:#0B73BB}
+.head .search .about-ser .wodrs,.head .search .about-ser hl{color:#f60; margin:auto}
+.head .search .about-ser .key-bor hl{color:#f60}
+.head .search .about-ser .key-bor .keys .wodrs{border:1px solid #FACEA0;border-radius:10px 10px 10px 10px; background:#FFEABD; padding:2px 5px; color:#666; margin-right:5px}
+
+.head .search .about-ser dt{width:30px; height:30px; overflow:hidden; float:left}
+.head .search .about-ser dt img{width:30px; height:30px; border-radius: 6px 6px 6px 6px;}
+.head .search .about-ser dd{width:180px; float:left; margin-left:5px; line-height:14px}
+.head .search .about-ser .keys i{color:#999; margin:0 5px}
+
+.head .user-ed{width:252px;_width:250px; float:right; padding-top:13px; position:relative; z-index:50;}
+.head .phone{float:left; width:45px; margin:20px 0 0 15px; padding:0 0 0 15px;background:url(../r/page/set-phone.gif) no-repeat 0 0; height:16px; overflow:hidden; line-height:18px;line-height:20px\9; *line-height:20px}
+.head .phone:hover,.head .phone.hover{ background:url(../r/page/set-phoneh.gif) no-repeat 0 -1px;}
+.head .phone a{color:#666; float:left; display:inline-block;}
+.head .phone a:hover{color:#ff6600}
+.head .user-ed a:hover{color:#f60}
+/*未登录*/
+.user-ed{width:110px; color:#ccc;float:right; line-height:30px; text-align:right}
+.user-ed a{color:#666}
+/*已登录*/
+.user-ed .user-info{float:right;height: 30px;overflow: hidden;text-align: right;width: 105px; position:relative}
+.user-ed .user-info .user-img{width:25px; height:25px; display:inline-block; vertical-align:middle; margin-right:5px}
+.user-ed .user-info .user-img img{width:25px; height:25px;border-radius: 5px 5px 5px 5px}
+.islogin{text-align:left}
+.islogin a{color:#0B73BB}
+.islogin .user-name{color:#333}
+.head-con .islogin .lot .border-top1{border-top:1px solid #E6E6E6}
+.user-ed .lot{float:right; position:relative; z-index:20; margin:4px 0 0 0}
+.user-ed .lot ul{position:absolute; background:#fff; color:#666; right:0; top:25px;_right:-1px;border:1px solid #bababa; padding:5px 3px; font-size:12px;display:none;
+			-webkit-box-shadow: 1px 1px 1px #e0e0e0;
+			-moz-box-shadow: 1px 1px 1px #e0e0e0;
+			 width:150px
+}
+.user-ed .lot a.tit{color:#999;padding:5px 15px 5px 5px; position:relative; top:-6px; display:block;border:1px solid #fff; border-width:1px 1px 0; background:#fff; z-index:5;  width:25px; height:15px}
+.head .user-ed .lot.hover{background:none}
+.user-ed .lot:hover ul,.user-ed .lot.hover ul{display:block; line-height:24px}
+.user-ed .ui-msg:hover ul{display:none;}
+.user-ed .ui-msg .num {position:absolute;width:27px;height:17px;background:url(../r/page/13_03.png) no-repeat;top:-10px;right:-8px;font-size:11px;font-weight:bold; font-family: Arial, "MS Trebuchet", sans-serif;;z-index:111;line-height:15px;text-align:center;color:#fff;_background-image:none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://t.v5.zbj.com//r/page/13_03.png"); display: none}
+.user-ed .ui-msghover .num{opacity:1;}
+.user-ed .ui-msg ul li span{padding-right:10px; float: right; color:#f60}
+.user-ed .ui-msghover:hover ul,.user-ed .ui-msghover ul{display:block;}
+.user-ed .lot:hover a.tit,.user-ed .lot.hover a.tit{border:1px solid #ededed; border-width:1px 1px 0;height:17px;}
+.user-ed .ui-msg:hover a.tit {border:1px solid #fff;height:16px;border-bottom:none;}
+.user-ed .lot li,.nav-mo .nav-lis li{padding:0px; _height:28px;}
+.user-ed .lot li.um-trade, .nav-mo .nav-lis li.um-trade{border-top:1px solid #e6e6e6}
+.user-ed .lot li.last,.nav-mo .nav-lis li.last{border:none}
+.user-ed .lot li a{color:#666; display:block; padding:2px 7px}
+.user-ed .lot li a:hover{color:#333; background:#f5f5f5; text-decoration:none}
+.user-ed .lot a.msg,.user-ed .lot a.key,.user-ed .lot a.pub{ display: inline-block; margin-top: 2px; height: 15px;padding:5px; width:25px}
+.user-ed .lot a.pub{padding:5px 3px}
+.user-ed .lot a.key,.user-ed .lot a.msg{padding:5px 7px}
+.user-ed .ui-msghover:hover a.msg,.user-ed .lot:hover a.key,.user-ed .lot:hover a.pub,.user-ed .ui-msghover a.msg,.user-ed .lot.hover a.key,.user-ed .lot.hover a.pub{ height: 15px; background-color: #fff; border-color:#fff;}
+.user-ed .lot a.msg{ background:url(../r/page/set-msg.gif) center 9px no-repeat}
+.user-ed .lot a.key{ background:url(../r/page/set-key.gif) center 8px no-repeat}
+.user-ed .lot a.pub{ background:url(../r/page/set-pub.gif) center 9px no-repeat}
+.user-ed .lot a.myd,.triangle{background:url(../r/page/ed2.gif) no-repeat 6px 5px; padding:0;margin: 10px 0 0 5px; padding: 0; width: 20px;}
+.head .user-ed .lot a.pub:hover{ background:url(../r/page/set-pubh.gif) center 9px no-repeat}
+.head .user-ed .lot:hover a.key,.user-ed .lot.hover a.key,.head .user-ed .lot a.key:hover{border-color:#bababa;
+	-webkit-box-shadow: 1px -1px 1px #e0e0e0;
+	-moz-box-shadow: 1px -1px 1px #e0e0e0;
+	box-shadow: 1px -1px 1px #e0e0e0;
+	padding:7px; background-color: #fff;background-image:url(../r/page/set-keyh.gif); background-position: center 8px}
+.head .user-ed .ui-msghover a.msg ,.head .user-ed .ui-msghover:hover a.msg,.head .user-ed .ui-msghover a.msg:hover{border-color:#bababa;
+	-webkit-box-shadow: 1px -1px 1px #e0e0e0;
+	-moz-box-shadow: 1px -1px 1px #e0e0e0;
+	box-shadow: 1px -1px 1px #e0e0e0;
+	padding:7px; background-color: #fff;background-image:url(../r/page/set-msgh.gif); background-position: center 8px
+}
+.head .user-ed .lot:hover a.myd,.head .user-ed .hover a.myd,.tricur{border-color:#bababa;
+	-webkit-box-shadow: 1px -1px 1px #e0e0e0;
+	-moz-box-shadow: 1px -1px 1px #e0e0e0;
+	box-shadow: 1px -1px 1px #e0e0e0;
+	background:#fff url(../r/page/ed3.gif) no-repeat -9px 5px; padding:0 0 4px}
+.triangle{margin:0px;padding:0px; vertical-align: middle; display: inline-block;box-shadow: none;height:15px}/*公用三角型图标*/
+.user-ed .lot .ui-poptip{ padding:5px; width:150px; left:-116px; top:30px; display: none; position: absolute}
+.user-ed .ui-poptip{width:218px; color:#666; font-size:12px; right:-5px; top:43px; padding:15px 10px; background:#fff}
+.user-ed .ui-poptip-arrow i,.user-ed .ui-poptip-arrow{border-width:8px}
+.user-ed .ui-poptip-arrow i{left:-8px; top:-7px; border-color:transparent transparent #fff}
+.user-ed .ui-poptip-arrow{top:-17px; left:auto; right:20px;border-width:8px}
+.user-ed .lot .ui-poptip a{float: right}
+.user-ed .lot .ui-poptip p{border-bottom:1px solid #efefef;padding:2px 10px}
+.user-ed .lot .ui-poptip p.last{border-bottom: none}
+.caret{top:11px; right:5px;border-top:4px solid #999}
+
+/*随机换风格*/
+#updata-style{ position: absolute; top:68px; right:10px; display: none; width:51px; height: 47px; background: url(../r/style/def-style.png) no-repeat; text-indent: -999px; overflow: hidden}
+#updata-style:hover{ background: url(../r/style/hover-style.png) no-repeat}
+
+.zhuzhu{display:block; background:url(../r/page/zhuzhu.png) no-repeat; width:153px; height:159px; position:absolute;top:125px; right:-128px}
+/*淘宝风格*/
+body.tabaoStyle .main{background:url(http://img04.taobaocdn.com/tps/i4/T1SP3dXi0cXXbSArjE-1680-894.jpg)no-repeat scroll 0 0 #092101}
+body.tabaoStyle .main .bom-bg,.twitterStyle .bom-bg{background: none; height: 30px}
+/*twitter风格*/
+body.twitterStyle .main{background:#c0deed url(../r/style/twitter-bg.jpg) center top no-repeat}
+body.twitterStyle .main .left-nav .ln-c,body.twitterStyle .main .user-ed-bg{background:#e3f2f8}
+body.twitterStyle .main .ln-c .nav{text-shadow:none}
+body.twitterStyle .footer{background:#363636 url(../r/style/twitter-footer.jpg) left top repeat-x}
+body.twitterStyle .nav ul li:hover,.nav ul li.hover{background:#d6ebf3}
+body.twitterStyle .ed-page .nav .user-ck li.cur{background-color:#c6e1ee}
+body.twitterStyle .nav .user-ck li.sel:hover{background:#e3f2f8}
+body.twitterStyle .nav .user-ck li .sec p.cur{background-color:#c6e1ee}
+body.twitterStyle .nav .user-ck li.sel .sec p:hover{background:#d6ebf3}
+body.twitterStyle .nav .user-ck li.sel .sec p a{color:#666}
+body.twitterStyle .nav .user-ck li.sel .sec p.cur{background-color:#c6e1ee}
+/*祝福风格*/
+body.zhufu .main{background:#c34215 url(http://t.v5.zbj.com/r/page/zhufu-bg.jpg) center top no-repeat;}
+body.zhufu .main .left-nav .ln-c,body.zhufu .main .user-ed-bg{background:#f9f1e5}
+body.zhufu .main .ln-c .nav{text-shadow:none}
+body.zhufu .nav ul li:hover,.nav ul li.hover{background:#f6dfbc}
+body.zhufu .main .bom-bg{background: none; height: 30px}
+body.zhufu .head{border-bottom:none; box-shadow: 0 1px 1px #f4f2f2;}
+/* t6 体验入口 */
+.entry-t6{
+    position:absolute;
+    top:80px;
+    right:0;
+}
+.entry-t6 .item-bd{
+    display:inline-block;
+    width:100px;
+    height:77px;
+    background:url(/r/page/t6-beta.png) right -133px no-repeat;
+}
+.entry-t6 a.item-bd:hover{
+    height:128px;
+    width:149px;
+    background-position:right top;
+}
+.entry-t6 .item-close{
+    display:inline-block;
+    position:absolute;
+    top:0;
+    right:0;
+    width:18px;
+    height:15px;
+}

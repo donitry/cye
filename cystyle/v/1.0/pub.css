@@ -1,0 +1,372 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */
+/*pub*/
+.dowant span{display:block; width:130px; height:25px; text-indent:-10000px; float:left;
+    background-image:url(../r/page/dowant.gif);
+    background-image:-webkit-image-set(url(../r/page/dowant.gif) 1x,url(../r/page/dowantx2.png) 2x);
+    background-repeat:no-repeat;
+}
+.dowant .request-text{text-indent:0px; background: none;font-size:22px; color:#BF460B; font-family: "微软雅黑","宋体";width:40%}
+.dowant .request-cont{ background: none;width:58%; float: right;text-indent: 0px; text-align: right; color:#999}
+.dowant .request-cont a{width:auto; float: none;margin: 0px; display: inline-block}
+.dowant a{display:block; float:right; width:130px; margin-top:6px; text-align:right}
+.dowant-hover span{background-position: 0 -31px}
+.pub-msg{margin:10px auto; position:relative; z-index:10; height:100%; width:auto;}
+.pub-msg input,.pub-msg textarea{width:100%; padding:10px 0; border:0; font-size:14px}
+.pub-msg textarea{padding:0; height:120px; max-height:120px; max-width:915px; line-height:22px;font-size:12px; color:#999}
+.pub-msg .ineed{width:57px; float:left; color:#333333; font-size:14px; text-align:center; line-height:42px; display:block; font-family: "微软雅黑","宋体";}
+.pub-msg .text{border:0; width:85%;_width:84%; height:42px; float:left; display:block; margin-top:1px}
+.pub-msg .text input{height:22px; line-height:24px;_ line-height:20px}
+.pub-msg em{display:block; position:absolute; top:13px; left:65px; z-index:12; font-size:14px;color:#999}
+.pub-msg .newfb{margin-top:10px; position:relative; z-index:10; width:auto; height:30px}
+.pub-msg .newfb .butn{padding-right:22px; padding-left:22px; font-size:14px; float:right; font-weight:bold}
+.pub-msg .newfb .no-int{ font-weight: normal;background-position:right 0; cursor: pointer}
+.pub-msg .newfb .no-int i{ font-weight: normal;background-position:left 0}
+.pub-msg .newfb .pub-user-ed{margin-top:2px; float:left; width:80%; display:none}
+.pub-user-ed .childs{float:left; margin-right:20px; font-size:14px; color:#666; position:relative}
+.pub-user-ed .childs p{cursor:pointer}
+.pub-user-ed .childs s{color:#ff8a00; margin-right:5px; font-size:16px; font-family:Arial, Helvetica, sans-serif}
+.pub-user-ed .childs .fids s{color:#2b7308}
+.pub-user-ed .childs .wods s{color:#087cc5}
+.pub-user-ed .childs u{color:#f60;font-weight:bold;}
+.pub-user-ed .add-file i,.pub-user-ed .get-money i,.pub-user-ed .add-yaoqing i,.pub-user-ed .get-label i,.pub-user-ed .secrecy i, .pub-user-ed .contact i{width: 25px; display: inline-block;height:20px; vertical-align: -4px;_vertical-align: 0px; position:relative;
+background:url(../r/page/up-ico.gif?v1);
+background-image:-webkit-image-set(url(../r/page/up-ico.gif?v1) 1x,url(../r/page/up-icox2.png) 2x);
+background-repeat:no-repeat;
+}
+.pub-user-ed .add-file i{background-position:0 -251px}
+.pub-user-ed .get-money i{background-position:0 -165px}
+.pub-user-ed .add-yaoqing i{background-position:0 -194px}
+.pub-user-ed .get-label i{background-position:0 -224px}
+.pub-user-ed .secrecy i{background-position:-149px -251px}
+.pub-user-ed .contact i{background-position:-149px -278px}
+
+
+.pub-user-ed .childs .ui-poptip{top:35px; left:0}
+.pub-task{border:1px solid #dcdcdc; border-top:1px solid #c2c2c2; padding:1px}
+.pub-task-hover{border:2px solid #ffbf59; padding:0}
+.pub-task-hover span.jiantou{display:block;}
+.pub-task .jiantou {display:none;width: 25px;color: #333;font-size: 14px;line-height: 42px;background:url(../r/page/jiant.gif) no-repeat left center }
+.pub-task .user-cons{display:none; position:relative; z-index:2}
+.green .pub-task-hover{border:2px solid #96D076}
+.green .pub-task .jiantou{background:url(../r/page/green-jiant.gif) no-repeat left center}
+.c-select{background:#f2ffee; line-height:20px; position:absolute; z-index:6; right:0; left:58px; padding:5px 10px; display:none}
+.c-select a{padding:2px 5px; display:inline-block}
+.op-click .pub-msg em.over,.op-click .pub-task .user-cons em.over{color:#ccc}
+.op-click .newfb .pub-user-ed{display:block}
+.op-click .pub-task{position:relative; border:2px solid #ffbf59; padding:0; z-index:11;
+-moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+   border-radius: 3px 3px 3px 3px;
+}
+.op-click .pub-weiko{border:2px solid #96d076;}
+.op-click .pub-task .text{border:0}
+.op-click .pub-task .zbj-tooltip{width:12px; height: 12px; display: inline-block; margin:13px; background: url(../r/page/pub-view.gif) no-repeat; text-indent: -999px; overflow: hidden}
+.op-click .pub-task .zbj-tooltip:hover,.op-click .pub-task .hasView{background: url(../r/page/pub-hasview.gif) no-repeat;}
+.op-click .pub-task .ui-poptip{top:43px; left:35px; width:383px; background:#fdfdd9}
+.op-click .pub-task .ui-poptip-arrow i {border-color: transparent transparent #FDFDD9;}
+.op-click .pub-task .user-cons{display:block}
+.op-click .pub-task .user-cons em{left:13px; top:13px}
+.op-click .pub-task .user-cons .area{border:1px solid #ddd; border-width:1px 0 0; background:#fff; padding:10px; width:auto; height:120px; display:block}
+.op-click .pub-task em{ color:#999; font-size:12px}
+/*发布无法提交时，添加背景色提醒，需要当前子元素的背景色
+.pub-msg .ineed,.op-click .pub-task .text,.pub-msg .text input,.op-click .pub-task .user-cons,.op-click .pub-task .user-cons .area,.pub-msg textarea{background: transparent; border-width: 0px}*/
+/*祝福发布框*/
+.ui-pub-zhufu{}
+.ui-pub-zhufu .dowant span{background: url("../r/page/dowant.gif") 0 -166px; height: 33px; width:187px}
+.ui-pub-zhufu .pub-msg{ background: url(../r/page/new-pubbox.gif); margin-top: 10px}
+.ui-pub-zhufu .pub-task{ border:0px;border-radius:0px;box-shadow:none;padding:10px}
+.ui-pub-zhufu .pub-msg em{top:23px;left:23px}
+/*.ui-pub-zhufu .pub-msg .zhufu-tit{ position:absolute; top:-15px;left:auto; right:-2px; display: block;width:138px; height: 33px; background: url(../r/page/new-pub-tit.png) no-repeat}*/
+.ui-pub-zhufu .pub-tit{ background:url(../r/page/new-pub-cont.gif) right top no-repeat;}
+.ui-pub-zhufu .pub-task .user-cons .area{ height: 100px; background:none; margin:0 10px; padding:10px 0}
+.pub-msg textarea{height: 100px}
+.op-click .pub-task .user-cons{background:url(../r/page/new-pub-cont.gif) right bottom no-repeat;}
+.zhufu-newfb{padding-bottom: 10px}
+.zhufu-newfb span{float: left; padding: 3px 10px 0 15px; color:#fff;display: inline-block}
+.zhufu-newfb input{width: auto; float: left;padding:6px 5px; background: #9b3600; border-top:1px solid #7f2c00;width:100px;color:#fff;font-size:12px}
+.zhufu-newfb .tiao{display: inline-block;width:24px; height: 23px; background: #c54500;border-top:1px solid #7f2c00; color:#fff; text-align: center;padding:3px 0 0 0; float: left}
+.zhufu-newfb .butn{width:82px; height: 31px; float: right; color:#8e2e00; font-size:14px; font-weight:bold; margin-right: 10px;cursor: pointer}
+.zhufu-newfb .butn-orange{background: url(../r/page/new-pub-btn.gif) right top no-repeat;}
+.zhufu-newfb .butn-orange i{background: url(../r/page/new-pub-btn.gif) left top no-repeat;}
+.zhufu-newfb .pub-msg textarea{width:98%}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .zhufu-newfb .tiao,.zhufu-newfb span{margin-top:2px}
+}
+.zhufu-newfb button.no-int:hover,.zhufu-newfb button.no-int:active,.zhufu-newfb button.no-int.active,.zhufu-newfb button.no-int.disabled,.zhufu-newfb button.no-int[disabled],.zhufu-newfb no-int{
+    color:#8e2e00;cursor: pointer
+}
+/*微博*/
+.ui-pub-weibo .input-prepend .add-on,.ui-pub-weibo .input-append .add-on,.ui-pub-weibo .input-doble .add-do{ height: 15px; line-height: 15px}
+.bs-bi{background: url(../r/page/ts-bi.gif) 0 -13px no-repeat;width:12px; height: 14px; display: inline-block; margin-left: 4px}
+.bs-bi:hover,.hover .bs-bi{background-position: 0 2px}
+.ui-weibot li{margin:6px 0}
+.ui-weibot .tenx label,.ui-weibot .xinl label{background: url(../r/page/min-lo.gif) right -26px no-repeat; padding-right: 20px; display:inline-block}
+.ui-weibot .xinl label{background-position: right 3px}
+.weibo-text{cursor: pointer}
+.weiboTime select{margin:0px}
+
+.tips-weibot{padding:10px}
+/*设置奖金*/
+.set-bonus li span.fl{color:#666; margin-top: 3px;}
+.set-bonus .input-append{margin:0 15px}
+.set-bonus .delet-bonus .icon-minus-sign{ margin-right: 3px}
+/*首页发布选项卡*/
+.pub-select li{float: left; height: 29px;font-size:12px; padding: 0 15px; line-height: 29px; border-radius:3px 3px 0px 0px}
+.pub-select li.sea{background: #ffbf59}
+.pub-select li.seb{background: #ce4747}
+.pub-select li.sec{background: #bee1f2}
+.pub-select li.sed{background: #ffd8d2}
+.pub-select li.sea a{color:#8b4444}
+.pub-select li.seb a{color:#ffeaea}
+.pub-select li.sec a{color:#3784aa}
+.pub-select li.sed a{color:#c5614c}
+.op-click .pub-task{border-radius:0 3px 3px 3px}
+.pub-zhufupub .pub-msg,.pub-chuyipub .pub-msg,.pub-qingpub .pub-msg{margin:0 auto 10px}
+/*首页已发布信息列表*/
+.pub-infor-list{margin:0px 15px 0 15px;}
+.pub-infor-list,.pub-infor-list a{color:#c5614c}
+.pub-infor-list li{padding:2px 0}
+.pub-infor-list i{font-style: italic}
+.pub-infor-list img{width:20px; height:20px; vertical-align: -4px; margin-right: 5px}
+.pub-zhufupub .pub-msg .newfb,.pub-chuyipub .pub-msg .newfb,.pub-qingpub .pub-msg .newfb{height: auto}
+.pub-zhufupub .pub-msg textarea,.pub-chuyipub .pub-msg textarea,.pub-qingpub .pub-msg textarea{height: 80px}
+.pub-zhufupub .pub-task .user-cons .area,.pub-chuyipub .pub-task .user-cons .area,.pub-qingpub .pub-task .user-cons .area{height:80px}
+.pub-zhufupub ::-webkit-input-placeholder,.pub-qingpub ::-webkit-input-placeholder { color:#fff; }
+/*首页祝福类*/
+.pub-zhufupub .pub-task{border:2px solid #CE4747;border-radius:0 3px 0px 0px}
+.pub-zhufupub .zhufu-newfb{ background: #CE4747 url(../r/page/pub-zfbg.gif) right bottom no-repeat;padding-top:10px}
+.pub-zhufupub .zhufu-newfb span{color:#FFEAEA}
+.pub-zhufupub .zhufu-newfb input{background:#B02929;color:#fff}
+.pub-zhufupub .pub-infor-list,.pub-zhufupub .pub-infor-list a{color:#fff}
+.pub-zhufupub .zhufu-newfb .tiao{background:#991212}
+/*首页创意过年类*/
+.pub-chuyipub .pub-task{border:2px solid #bee1f2;border-radius:0 3px 0px 0px}
+.pub-chuyipub .newfb{ background: #bee1f2 url(../r/page/pub-cybg.gif) right bottom no-repeat;padding:10px; margin-top:0px}
+.pub-chuyipub .pub-infor-list,.pub-chuyipub .pub-infor-list a{color:#3784aa}
+.pub-chuyipub .pub-infor-list{padding:0px; margin:0px}
+/*首页情人节类*/
+.pub-qingpub .pub-task{border:2px solid #FCE2DE;border-radius:0 3px 0px 0px}
+.pub-qingpub .zhufu-newfb{ background: #ffd8d2 url(../r/page/pub-aqbg.gif) right bottom no-repeat;padding-top:10px}
+.pub-qingpub .zhufu-newfb span{color:#CD7C6B}
+.pub-qingpub .pub-infor-list,.pub-qingpub .pub-infor-list a{color:#c5614c}
+.pub-qingpub .zhufu-newfb input{ background: #C5614C}
+.auto-pubwraper{_height: 75px}
+.ui-pub-wraper{_height: 231px}
+/*评论3\15*/
+.user-comet dl .widWork .user-comment{padding-bottom:10px}
+.user-comet dl.js-alert .widWork .user-comment dl{border-top:0px;border-bottom:1px solid #E9E9E9;padding:10px 0;margin-top:0px}
+.user-comet dl.js-alert .widWork .user-comment dd .link{ display: none}
+.user-comet dl.js-alert .widWork .user-comment dd:hover .link{display: block}
+.widWork .user-comment dd span{color:#ccc}
+.user-comet .widWork .more-comt{margin:10px auto 0px}
+
+/* logo 设计专场的弹框 */
+.logoshow-pub-guide {
+    background: #f8f8f8;
+}
+.logoshow-pub-guide .closebtn { position: absolute; right: 5px; top: 0;}
+.logoshow-guide h3 {
+    color: #424242; font-family: "microsoft yahei"; font-size: 26px; height: 26px; line-height: 26px; margin-top: 10px; text-align: center;
+}
+.logoshow-guide .intro { font-size: 16px; text-align: center; margin-top: 10px;}
+.logoshow-guide .intro  strong {
+    color: #eb880e;
+    font-family: "simsun";
+    font-weight: normal;
+}
+.logoshow-guide .intro a {
+    color: #4a8ddf;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.logoshow-guide .logoshow-guide-popbg {
+    background: url(../logoshow/img/logo-guide-popup.png) no-repeat center center;
+    height: 138px;
+    margin-top: 16px;
+}
+.logoshow-guide .logoshow-service-act { margin: 36px auto 20px; position: relative; text-align: center;}
+.logoshow-guide .logoshow-service-act a{
+    background: #ff8a00;
+    border: 1px solid #ed8a14;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+
+    /**display: inline;*/
+    /**zoom: 1;*/
+
+    position: relative;
+    display: block;
+    width: 212px;
+    margin: 0 auto;
+}
+.logoshow-guide .logoshow-service-act a:hover {
+    text-decoration: none;
+}
+.logoshow-guide .logoshow-service-act .gotologoshow{margin-bottom: 10px;}
+.logoshow-guide .logoshow-service-act .discard{background: #aeaeae; border-color: #aeaeae}
+.logoshow-guide .logoshow-service-act .gotohelp{
+    background: #fff;
+    border: none;
+    color: #0b73bb;
+    display: inline;
+    position: absolute;
+    right: 80px;
+    width: 100px;
+}
+.logoshow-guide .logoshow-service-act .gotohelp:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+.logoshow-guide .logoshow-service-act a .arrow {
+    position: absolute;
+    border: 6px solid #ff8a00;
+    border-left-color: #fff;
+    height: 0;
+    width: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    top: 11px;
+    right: 13px;
+}
+.logoshow-guide .logoshow-service-act .discard .arrow {
+    border-color: #aeaeae;
+    border-left-color: #fff;
+    color: #aeaeae;
+}
+
+/* logo设计 标签页的logo设计专场入口和发布框*/
+.logo-service-type-tabs{height: 41px;position: relative;}
+.logo-service-type-tabs ul{float:left;margin: 0;padding: 0;position: absolute;bottom: 0px;}
+.logo-service-type-tabs .tab{
+    border: 1px solid #ffe7c0;
+    background: #ffeed0;
+    bottom: -1px;
+    color: #d1a664;
+    cursor:pointer;
+    float:left;
+    display:inline-block;
+    padding: 5px 30px;
+    position: relative;
+    margin-right: 8px;
+
+    *display: inline;
+    *zoom: 1;
+}
+.logo-service-type-tabs .tab a {color: #d1a664;}
+.logo-service-type-tabs .cur{background: #fdf9e9; border: 1px solid #ffeed0; border-bottom: 1px solid #fcf8e3; color: #ff8a00;cursor:default;}
+.logo-service-type-tabs .cur a {color: white;}
+
+.logo-service-type, .logo-service-pub {background: #fdf9e9; border: 1px solid #ffe7c0; margin-bottom: 10px; padding: 18px 18px 12px; *zoom:1;*padding: 18px 12px 12px;}
+.logo-service-pub { display: none; padding: 18px 10px 12px;}
+.logo-service-pub .pub-task { background: #fff;}
+
+
+
+.logo-service-item .logo-service-item-intro { font-size: 14px;}
+
+.logo-service-type h3 {
+    color: #424242; font-family: "microsoft yahei"; font-size: 26px; height: 26px; line-height: 26px; margin-top: 10px; text-align: center;
+}
+.logo-service-type .intro {
+    font-size: 16px; text-align: center; margin-top: 10px;
+}
+.logo-service-type .intro strong {
+    color: #eb880e;
+    font-family: "simsun";
+    font-weight: normal;
+}
+
+.logo-service-type .logo-service-entry {
+    background: url(../logoshow/img/logoshow-entry-tagbg.png) no-repeat center center;
+    height: 138px;
+    
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.logo-service-item .logo-service-intro { margin: 10px 10px 0; opacity: 0.6; filter:aplha(opacity=60);}
+.logo-service-start { text-align: center;}
+
+
+/* 新发布入口 */
+div.pub-new-entry  {
+    margin: 25px 0 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+div.pub-new-entry h3 {
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "microsoft yahei";
+    text-align: center;
+}
+div.pub-new-entry ul.reason-new {
+    float: none;
+    width: 575px;
+    margin: 22px auto;
+}
+.pub-new-entry li {
+    background: url(../r/page/reason-new.png?1) no-repeat 2px 0;
+    margin-right: 34px;
+    padding-top: 96px;
+    text-align: center;
+
+    display: inline-block;
+
+    *display: inline;
+    *zoom: 1;
+}
+.pub-new-entry li.last {
+    margin-right: 0;
+}
+.pub-new-entry li.reason-1 {
+    width: 108px;
+}
+.pub-new-entry li.reason-2 {
+    background-position: -221px 0;
+    width: 110px;
+}
+
+.pub-new-entry li.reason-3 {
+    background-position: 13px -170px;
+    width: 122px;
+}
+.pub-new-entry li.reason-4 {
+    background-position: -219px -170px;
+    width: 120px;
+}
+
+.inx-tag .inx-pub div.pub-new-entry,
+.win-box div.pub-new-entry,
+.win-pub div.pub-new-entry,
+.logo-service-pub div.pub-new-entry {
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+#paytype input{margin: 0;padding: 4px 5px;height: 19px;border-radius: 3px 0px 0px 3px;}
+
+.ui-window-header a.pub-service-htips {
+    float: none;
+    position: static;
+    font-size: 12px;
+    font-weight: normal;
+    color: #0BA000;
+
+    margin-left: 20px;
+
+    opacity: 1;
+}
+body.t5s .ui-menu a:link,body.t5s .ui-menu a:hover,body.t5s .ui-menu a:active,body.t5s .ui-menu a:visited{color:#fff;}

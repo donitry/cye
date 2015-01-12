@@ -1,0 +1,463 @@
+@CHARSET "UTF-8";
+body {}
+.head .head-con{zoom:1;margin: 0 auto; _margin:auto 150px;}
+.head .head-con.w1000{width:1000px}
+.head .user-ed{width:250px}
+.main .main-con{width:1000px; max-width:1000px;padding-top: 0px;}
+/*Avatar picture*/
+.upd-uPic .upbtn a{position:relative;display:block;width:62px;}
+.upd-uPic .upbtn a:hover{position:relative;}
+
+.upd-uPic .alt{color:#666; margin-bottom: 15px}
+.upd-uPic .upbtn font{color:#ccc; margin-left: 10px;font-size:12px}
+.upd-uPic .small-butn {display:inline-block;}
+.upd-uPic .small-butn span{display:block;width:112px;height:100%;position:absolute;top:0;right:0;}
+.prog-bar{ width: 300px; height: 15px; position: relative; float: left;overflow:hidden;}
+.prog-below,.prog-sched{ background: url(../r/p/progress.gif) right 0px repeat-x; height: 10px; width:100%}
+.prog-below i,.prog-sched i{display: inline-block;width:5px; height: 15px;background: url(../r/p/progress.gif) 0 0 repeat-x}
+.prog-below i.l{ background-position: 0 0}
+.prog-sched{ background-position:right -15px; position: absolute; top:0;left:0;overflow: hidden}
+.prog-sched i.l{ background-position: 0 -15px}
+.shed-box span{float: left; margin:0 10px; line-height: 15px; color:#999}
+.sel-img{ float: left;width:400px; border:1px solid #ccc; overflow: hidden}
+.tool-bar{padding:5px 10px; border-bottom: 1px solid #ccc}
+.tool-bar .icon{ display: inline-block; width:17px;height: 17px; overflow: hidden; background: url(../r/sign/icon.gif) no-repeat; margin-right: 5px}
+.tool-bar a{color:#676767}
+.tool-bar .fd{ background-position: 0 -17px}
+.tool-bar .fd:hover{ background-position: 0 -53px}
+.tool-bar .sx:hover{ background-position: 0 -36px}
+.head-pic{ background: url(../r/sign/cavor.jpg); width:400px; height: 400px; overflow: hidden; position: relative}
+.ui-imagecut-mask {position:absolute;width:100%;height:100%;top:0;left:0;z-index:1;background:#ccc;opacity:0.5;filter:alpha(opacity=50);}
+.ui-imagecut-helper {position:absolute;font-size:1px;line-height:1px;overflow:hidden;background:#ccc url(../r/sign/border.gif) repeat left top;z-index:14;border:1px solid #ccc;filter:alpha(opacity=40);}
+.ui-imagecut-HTC {width:100%;height:1px;top:-1px;left:0;}
+.ui-imagecut-HBC{width:100%;height:1px;bottom:-1px;}
+.ui-imagecut-HML {width:1px;height:100%;left:-1px;}
+.ui-imagecut-HMR {width: 1px;height:100%;right:-1px;}
+#ui-imagecut{position:absolute;width:100px;height:100px;z-index:2;overflow:hidden;cursor:move;}
+.ui-imagecut-can {position:absolute;width:100%;height:100%;z-index:1;top:0;left:0;cursor:move;background:#fff;opacity:.1;_background:#ccc;filter:alpha(opacity=10);-moz-user-select: -moz-none}
+.view-img{width:200px; float: left; margin-left: 10px}
+.view-img li{text-align: center; margin-bottom: 15px}
+.view-img li.w2{ width: 200px}
+.view-img li.w8{ width: 80px}
+.view-img li.w4{ width: 48px}
+.view-img li .pic{overflow: hidden; position: relative;border:1px solid #e1e1e1;}
+.view-img li.w2 .pic{ width:198px; height: 198px}
+.view-img li.w8 .pic{ width:78px; height: 78px}
+.view-img li.w4 .pic{ width:46px; height: 46px}
+.view-img li img{display: block; position: absolute}
+.view-img li span{display: block;color:#999}
+.upd-uPic .ui-window-footer{text-align: center; background-color: #fff; border-top:1px dashed #ccc; margin: 0 15px}
+.upd-uPic .ui-window-header{ border: none;padding-bottom: 0px}
+
+.imageinner{height:400px;}
+.imageinner img{position:absolute;z-index:0;}
+/*Login*/
+.main{background: url("../r/page/main-bg.gif") repeat scroll 0 0 transparent}
+.login-main{width:820px; margin: 0 auto; background: url(../r/sign/login-bgimg.jpg) left 60px no-repeat;padding:30px 0}
+.login-box{ width:400px; float: right}
+.login-box .login-con{padding:20px; border-left:1px solid #d0d0d0; border-right:1px solid #d0d0d0;background-color: #fff}
+.login-box .login-top,.login-box .login-fot{ width:400px; height: 4px; overflow: hidden}
+.login-box .login-top{ background: url(../r/sign/login-top.jpg)}
+.login-box .login-fot{ background: url(../r/sign/login-fot.jpg)}
+.login-con .tit{color:#333; font-size:18px}
+.login-con .tit .u{ display: inline-block;width:13px; height: 16px; background: url(../r/sign/icon.gif) 0 -102px; margin-right: 5px; overflow: hidden; vertical-align: middle}
+.login-con .controls{ margin:20px 0 0 0px; float: none}
+.login-con .controls input{width:340px}
+.login-con .chek{margin:20px 0; color:#bbb}
+.login-con .chek input{width:auto; margin-right: 5px}
+.login-con .sub-btn{ text-align: center}
+.login-con .sub-btn button.max-butn{padding:2px 35px 5px}
+.login-con .sub-btn .text{ display: block;color:#999; margin-top: 5px}
+.login-con .sub-btn .text a{text-decoration: underline}
+.login-select,.login-select a{color:#666}
+.login-select{border-top:1px solid #e1e1e1; margin-top: 15px;padding-top:15px; _line-height: 16px}
+.login-select a{background: url(../r/sign/xenxiang.gif) no-repeat; display: inline-block; padding-left:18px; height: 16px; margin-left: 5px; overflow: hidden; line-height: 22px; _line-height: 16px}
+.login-select a.taoB{ background-position:0 -48px}
+.login-select a.xinL{ background-position:0 -16px}
+.login-select a.wangY{ background-position:0 -32px}
+.login-select a.QQ{ background-position:0 0}
+.user-more{ float: right}
+.user-more span.arr{display: inline-block; background: url(../r/sign/icon.gif) 0 -119px no-repeat; width:9px; height: 5px; margin: 7px}
+.login-sha{height: 11px}
+.shal,.shar{ display: inline-block;width:200px; height: 11px}
+.shal{ background: url(../r/sign/sha-fotl.png) no-repeat; float: left;_background-image:none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://t.v5.zbj.com/r/sign/sha-fotl.png")}
+.shar{ background: url(../r/sign/sha-fotr.png) no-repeat; float: right;_background-image:none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://t.v5.zbj.com/r/sign/sha-fotr.png")}
+/*bom-bg*/
+.bom-bg{background:url(../r/page/bom-bg.gif) no-repeat; width:1002px; height:124px; margin:10px auto auto}
+/*Phone is registered*/
+.tel-box{width:480px;margin: 0 auto;padding:40px 0;}
+.tel-sign,.atten-chan,.hzzd-chan,.pep-cont,.ks-chan,.per-chan,.phone-chan,.email-chan{background-color: #fff;border:1px solid #d0d0d0;border-radius: 5px 5px 5px 5px;padding:15px}
+.tel-sign .other{ text-align: right; position: relative; top: -10px; z-index: 1}
+.tel-sign .other a{color:#999}
+.tel-sign .other em.u{ display: inline-block; width:10px; height: 8px; background: url(../r/sign/icon.gif) 0 -73px no-repeat; float: right; margin: 7px 0 0 5px; overflow: hidden;_margin-top:5px}
+.tel-sign .tit{color:#666;font-size:18px; margin-bottom: 20px;margin-left: 12px}
+.tel-sign .tit em.t,.phone-chan .tit em.p{ display: inline-block; background: url("../r/page/pic.gif") no-repeat scroll 0 -24px transparent; width:10px; height:17px; margin-right: 5px; vertical-align: middle}
+.lin9{color:#ccc}
+.form-docs .control-yzm .controls input{ width:200px}
+.control-yzm img{ width:78px; height: 30px; float: left; margin: 5px}
+.control-yzm .refimg{ display: inline-block; width:16px; height: 16px; background: url(../r/sign/icon.gif) 0 -84px no-repeat; float: left; margin-top: 12px}
+.tel-sign .chek{margin-left: 12px;color:#bbb}
+.tel-sign .chek a{color:#bbb; text-decoration: underline}
+.tel-sign .chek input{ width:auto}
+.tel-sign .sub-btn{ text-align: center; margin-top: 15px}
+.tel-sign .sub-btn button.max-butn{padding:2px 35px 5px}
+.tel-sign .login-select{ padding-left:45px;padding-right:45px}
+.tel-sign .controls input,.login-con .controls input{height: 25px; line-height: 25px}
+.tel-sign .controls em,.login-con .controls em{ font-size:14px}
+.tel-sign .form-docs .help-inline,.login-con .form-docs .help-inline,.tel-sign .controls em,.login-con .controls em{_top:15px}
+/*Concerned about the channel*/
+.atten-box{ width:600px; margin: 0 auto;padding:40px 0}
+.atten-chan{padding:20px}
+.atten-chan .tit{color: #333;font-size:18px}
+.atten-chan .tit em.a{ display: inline-block; width:16px; height: 17px; background: url(../r/sign/icon.gif) 0 -124px; margin-right: 5px; vertical-align: middle; overflow: hidden}
+.atten-chan .desc{color:#666; margin: 15px 0}
+.atten-chan .list{}
+.atten-chan .list li{float: left;margin:10px 10px 5px 20px; width:100px; text-align: center; font-size:14px; color:#999; position: relative}
+.atten-chan .list li p{width:100px; height: 100px; background: url(../r/sign/att-defbg.jpg) no-repeat; margin-bottom: 5px;display:table-cell; vertical-align:middle;text-align:center;*display:block;*font-size:65px; cursor: pointer}
+.atten-chan .sub-btn{ margin-top: 20px; text-align: center}
+.atten-chan .list .sel p{background: url(../r/sign/att-selbg.jpg) no-repeat}
+.atten-chan .sel .yes{ display: inline-block; width:24px; height: 17px; position: absolute; top:5px; right:10px; background: url(../r/sign/model.gif) 0 -786px no-repeat}
+.atten-chan p em{ display: inline-block; background: url(../r/sign/model.gif) no-repeat; overflow: hidden}
+.atten-chan .p1 em{ width:54px; height: 49px; background-position: 0 -295px}
+.atten-chan .p2 em{ width:49px; height: 44px; background-position: 0 -99px}
+.atten-chan .p3 em{ width:49px; height: 49px; background-position: 0 -143px}
+.atten-chan .p4 em{ width:43px; height: 50px; background-position: 0 -344px}
+.atten-chan .p5 em{ width:54px; height: 50px; background-position: 0 -49px}
+.atten-chan .p6 em{ width:50px; height: 46px; background-position: 0 -192px}
+.atten-chan .p7 em{ width:45px; height: 55px; background-position: 0 -238px}
+.atten-chan .p8 em{ width:51px; height: 49px; background-position: 0 0}
+
+.atten-chan .sel .p1 em{ width:54px; height: 49px; background-position: 0 -498px}
+.atten-chan .sel .p2 em{ width:49px; height: 44px; background-position: 0 -593px}
+.atten-chan .sel .p3 em{ width:49px; height: 49px; background-position: 0 -737px}
+.atten-chan .sel .p4 em{ width:43px; height: 50px; background-position: 0 -687px}
+.atten-chan .sel .p5 em{ width:54px; height: 50px; background-position: 0 -637px}
+.atten-chan .sel .p6 em{ width:50px; height: 46px; background-position: 0 -547px}
+.atten-chan .sel .p7 em{ width:45px; height: 55px; background-position: 0 -394px}
+.atten-chan .sel .p8 em{ width:51px; height: 49px; background-position: 0 -449px}
+/*Partner sites - complete*/
+.hzzd-box{ width: 580px; margin: 0 auto; padding-top:30px}
+.hzzd-box .tit{color:#333;font-size:16px; text-align: center; font-weight: normal; margin-bottom: 20px; font-family: "瀹嬩綋"}
+
+.pro-bar{ width: 499px; margin: 0 auto; position: relative}
+.pro-bar .bg{background: url(../r/sign/pro-barbg.gif) repeat-x; width:100%; height: 17px}
+.pro-bar .jd{background: url(../r/sign/pro-barjd.gif) repeat-x; height: 17px; position: absolute; left:0px; top:0px}
+.pro-text{ width:510px; margin: 0 auto;}
+.pro-text span{display: inline-block; width:33%; color:#999; text-align: center}
+.pro-text span.first{ text-align: left}
+.pro-text span.last{ text-align: right}
+
+.hzzd-box .desc{color:#c00; padding:0 10px 10px 10px}
+.hzzd-box .hzzd-fx{padding:20px 10px;border-bottom: 1px dashed #ccc; border-top: 1px dashed #ccc}
+.hzzd-box .hzzd-fx .aofres{color:#666}
+
+.scr-box{width:500px; height: 53px; overflow: hidden; margin: 15px 0}
+.scr-box .left,.scr-box .right{ display: inline-block; width:11px; height: 24px; background: url(../r/sign/icon.gif) no-repeat; margin-top: 15px}
+.scr-box .left{ background-position: 0 -141px; float: left}
+.scr-box .right{ background-position: 0 -165px; float: right}
+.scr-box .scr-img{ width:475px; height: 53px; overflow: hidden;float: left}
+
+.scr-img li img,.scr-img li .us-yuan,.scr-img li,.scr-img li.sel .us-select{width:53px; height: 53px; cursor: pointer}
+.scr-img li{float: left; position: relative; margin-left:13px; _display: inline}
+.scr-img li .us-yuan,.scr-img li .us-select{display: block; position: absolute; top:0;left:0; overflow: hidden}
+.scr-img li .us-yuan{ background: url(../r/sign/us-yuan.png) no-repeat;z-index: 1;_background-image:none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://t5.zbjimg.com/r/sign/us-yuan.png");}
+.scr-img li.sel .us-select{background: url(../r/sign/us-select.png) no-repeat;z-index: 2;_background-image:none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://t5.zbjimg.com/r/sign/us-select.png");}
+
+.hzzd-box .texta{width: 508px; height: 80px; border:1px solid #ccc; background-color: #fff;border-radius: 5px 5px 5px 5px; padding:5px; color:#666}
+.hzzd-box .chek{ margin-top: 5px}
+.hzzd-box .chek input{width:auto}
+.hzzd-box .chek label{color:#999}
+.hzzd-box .chek label a{color:#999; text-decoration: underline; margin-left: 5px}
+.hzzd-box .chek span{float: right; color:#ccc}
+.hzzd-box .chek span strong{color:#666}
+.hzzd-box .sub-btn{ text-align: center; margin-top: 20px}
+.hzzd-box .sub-btn button{ margin: 0 5px}
+/**/
+.pep-box{ width:870px; margin: 0 auto; padding-top: 30px}
+.pep-box .tit{ color:#333; font-size:16px; text-align: center;font-family:"瀹嬩綋"; margin-bottom: 20px; font-weight: normal}
+.pep-box .pep-cont{ margin-top: 20px; padding:20px}
+.pep-cont .pep-tit{ font-size:18px; color:#333}
+.pep-cont .pep-tit em.p{ display: inline-block; width:20px; height: 17px; background: url(../r/sign/icon.gif) 0 -189px no-repeat; vertical-align: middle; margin-right: 5px}
+.pep-cont .pepcz{ color:#666; margin: 10px 0}
+.pep-cont .pepcz .refh{float: right}
+.pepcz .refh a{ color: #666; margin-left: 20px}
+.pepcz .refh em.r{ display: inline-block; width:16px; height: 17px; background:url(../r/sign/icon.gif) 0 -84px no-repeat; overflow: hidden; vertical-align: middle; margin-right: 10px}
+.pep-list{ margin-left: -30px}
+.pep-list li{float: left; width:224px; height: 54px;padding:13px; border:1px solid #e9e9e9; background-color: #f7f7f7; overflow: hidden; border-radius: 5px 5px 5px 5px; margin: 15px 0 15px 30px; position: relative; _display: inline;}
+.pep-list li .pic{ float: left; border-radius: 5px 5px 5px 5px}
+.pep-list li .pic,.pep-list li .pic img{ width: 55px; height: 55px;}
+.pep-list li .text{ float: left; width:150px; margin-left: 10px; color:#999; line-height: 15px}
+.pep-list li .text span{display: block}
+.pep-list li .title{ color:#666; margin-bottom: 10px}
+.pep-list li.sel{ border:1px solid #ffcc9a; background-color: #fff}
+.pep-list li.sel .title{color:#ff6600}
+.pep-list li.sel .select{ display: block;width:24px; height: 17px; background: url(../r/sign/model.gif) 0 -786px no-repeat; position:absolute; top:5px; right:10px}
+.pep-cont .allse{ text-align: center;color:#666; _margin-top: 15px}
+.pep-cont .sub-btn{ text-align: center; margin-top: 5px}
+/**/
+.att-tit{color:#333; font-size:16px; font-weight: normal; font-family:"瀹嬩綋"; text-align: center; margin-bottom: 30px}
+/**/
+.ks-box{ width:530px; margin: 0 auto; padding-top: 30px}
+.ks-box .ks-chan{padding: 20px}
+.ks-chan .tit{ font-size:18px; color:#333; margin: 10px 0 0 10px}
+.ks-chan .tit em.u,.per-box .tit em.u{display:inline-block; width:13px; height: 16px; background: url(../r/sign/icon.gif) 0 -102px no-repeat; margin-right: 5px; vertical-align: middle; overflow: hidden}
+.ks-chan .desc{ color:#666; margin: 15px 0 10px 10px}
+.ks-chan .list li{float: left; border:1px solid #e9e9e9; border-radius: 5px 5px 5px 5px;width:220px; height: 50px; margin: 10px; background-color: #f7f7f7; _display: inline;}
+.ks-chan .list li a{display: inline-block;width:190px; height: 30px;color: #666; font-size:14px; padding:10px 15px}
+.ks-chan .list em{display: inline-block; width:32px; height: 32px; background: url(../r/sign/xenxiang1.gif) no-repeat; vertical-align: middle; margin-right: 5px}
+.ks-chan .list em.xinL{ background-position: 0 -128px}
+.ks-chan .list em.QQ{background-position: 0 -96px}
+.ks-chan .list em.wangY{background-position: 0 -64px}
+.ks-chan .list em.dou{background-position: 0 -32px}
+.ks-chan .list em.taoB{background-position: 0 0}
+.ks-chan .list em.ren{background-position: 0 -160px}
+.ks-chan .list li.sel{border:1px solid #ffcc9a; background-color: #fff}
+.ks-chan .list li.sel a{color:#ff6600; font-weight:bold}
+/**/
+.per-box,.phone-box,.email-box{width:480px; margin: 0 auto; padding-top:30px}
+.per-box .tit{color:#333;font-size:18px}
+.per-box .up-img{ width:150px; height: 150px; overflow: hidden; margin: 20px auto; position: relative; border-radius: 5px}
+.per-box .uplink{ display: block}
+.per-box .up-img em.shar-bg{display: block;width:150px; height: 150px; overflow: hidden;position:absolute; border-radius: 5px; background-color: #333; top:0;left:0;opacity:0.8; filter:alpha(opacity=80);}
+.per-box .up-img em.shar-up{display: block;width:39px; height: 39px; background: url(../r/sign/up-bs.png) no-repeat; position: absolute; top:40px;left:37%}
+.per-box .up-img span.shar-tit{color:#fff;font-size:16px;display: block;position: absolute; top:100px;left:30%}
+.per-box .colorb{color:#bbb}
+.per-box .upload-img{ display: inline-block;width:150px; height: 150px; background: url(../r/sign/up-uimgdef.png) no-repeat}
+.per-box .upload-img:hover{background: url(../r/sign/up-uimgfcs.png) no-repeat}
+/**/
+.phone-chan{ position: relative}
+.phone-chan .tit{color:#333;font-size:18px; margin: 0 10px}
+.phone-chan .alt{color: #666; margin:20px 10px 5px 10px }
+.phone-chan .resh-alt{ text-align: center;color:#999; margin-top: 5px}
+.phone-chan .resh-alt a{text-decoration: underline}
+.phone-chan .desc,.email-chan .desc{color:#bbb; border-top: 1px solid #e1e1e1; margin: 30px 10px 0 10px; padding-top: 10px}
+/*鎵嬫満璁よ瘉寮圭獥*/
+.phone-alert{ width:320px; height: 160px; position: absolute; top:50px;left:80px;background-color: #e5e5e5; border-radius: 5px;}
+.phone-alert .phone-alert-cont{ width:310px; height: 150px;padding:5px; border:1px solid #ffe1a1; background-color: #fdfdd9;border-radius: 5px; position: relative; top:-4px; left:-4px; overflow: hidden}
+.phone-alert .phone-close{color:#ffd277; font-weight: bold; float: right; font-size:20px;_font-family: "寰蒋闆呴粦",Microsoft YaHei}
+.phone-alert .phone-close:hover{color:#ff7f29;_font-family: "寰蒋闆呴粦",Microsoft YaHei}
+.phone-alert .success{color:#ff6600;font-size:18px; background: url(../r/sign/phone-img.png) no-repeat;padding:25px 0 25px 60px; margin: 40px 50px; font-family: "寰蒋闆呴粦",Microsoft YaHei}
+/**/
+.email-chan{}
+.email-chan .tit{color:#333;font-size:18px}
+.email-chan .tit em.e,.tel-sign .tit em.e{display: inline-block;background: url(../r/sign/icon.gif) 0 -206px no-repeat;width:15px; height: 12px; margin-right: 5px}
+.email-chan .alt{color:#666; margin-top: 25px}
+.email-chan .prob{ color:#bbb; margin:10px 120px 0 120px; line-height: 15px}
+.email-chan .link{ text-align: center; margin-top: 5px}
+.email-chan .link a{text-decoration: underline}
+
+/*02 sign*/
+.p40{padding:40px}
+.bcf-brc,.sign-box{background-color: #fff; margin: 0 auto}
+.sign-box{width:920px;padding:40px}
+.sign-left{ width:615px; border-right: 1px solid #e1e1e1; float: left; padding-bottom: 80px}
+.sign-left .tit{font-size: 26px; font-weight: normal; color:#545454; margin-bottom: 35px; line-height: 26px; font-family:"寰蒋闆呴粦",Microsoft YaHei}
+.sign-left .tit a{font-size:12px; font-family:"寰蒋闆呴粦",Microsoft YaHei; margin-left: 10px; text-decoration: underline}
+.sign-left .control-group{}
+.sign-left .control-group .control-label{font-size:14px; color:#333; width:100px}
+.sign-left .control-group .controls input{padding:9px 6px; width:200px}
+.sign-left .control-group .yzm{ float: left}
+.sign-left .control-group .yzm img{float: left; margin: 0 15px}
+.sign-left .control-group .yzm span{ float: left; margin-top: 15px; color:#666}
+.sign-left .xieyi{ margin-left: 105px; color:#333}
+.sign-left .xieyi input{width:auto; float: left}
+.sign-left .xieyi span{float: left; _margin-top: 2px}
+.sign-left .sub-btn{ margin:24px 0 0 110px}
+.sign-left .sub-btn button{font-weight: bold; padding:2px 28px 5px}
+.sign-right{ float:left; width:264px; padding-left:40px}
+.sign-right .tit{font-size:18px; font-weight: normal; margin-bottom: 20px;line-height: 25px; font-family:"寰蒋闆呴粦",Microsoft YaHei}
+.sign-right .sign-item li{ margin-top: 8px}
+.sign-right .in-login{ margin-top: 20px;color:#666; font-size:14px}
+.sign-right .login-sub-btn button{font-weight: bold; padding:2px 28px 5px; margin-top: 10px}
+.sign-box .help-inline{display: none}
+/*02 login*/
+.th-login .sign-left{padding-bottom: 60px; position: relative}
+.other-tit{font-size:14px; font-weight:normal; font-family:Arial,Helvetica,sans-serif,"瀹嬩綋"; margin: 50px 0 0 105px; color:#545454}
+.other-login{ padding-left: 105px}
+.other-login li{float: left; width:32px; height: 32px; margin-right: 15px;padding-top:15px}
+.other-login li a{display: block;width:32px; height: 32px; background: url(../r/sign/login-img.png) no-repeat; _background: url(../r/sign/login-img.gif) no-repeat}
+.other-login li a.xinL{ background-position:0 -128px }
+.other-login li a.touban{ background-position:0 -96px }
+.other-login li a.ren{ background-position: 0 -32px}
+.other-login li a.taob{ background-position:0 0 }
+.other-login li a.qq{ background-position:0 -64px }
+.other-login li a.tengx{ background-position:0 -160px }
+.other-login li a.wangY{ background-position:0 -192px }
+.th-login .sign-right{}
+.th-login .sign-right .tit{font-size: 24px; margin-bottom: 15px}
+.th-login .sign-right .no-key{font-size:18px; font-weight: normal; font-family:"寰蒋闆呴粦",Microsoft YaHei;color: #535353}
+.th-login .sign-right .sub-btn{ margin-top: 20px}
+.th-login .sign-right .sub-btn .{font-weight: bold}
+.sign-right .sign-mobile-entry {
+    background: url(../r/mobile/login_phone.png) no-repeat left center;
+    padding-left: 30px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+/*02 email*/
+.th-email{width: 680px; padding:69px 100px 150px 220px; background:#fff url(../r/sign/email-icon.jpg) 125px 69px no-repeat}
+.th-email .tit,.th-phone .tit,.th-channel .tit h3{font-size: 24px; font-weight: normal; color:#535353; font-family: "寰蒋闆呴粦",Microsoft YaHei}
+.th-email .status,.th-phone .status{font-size:14px; color:#333; margin-top: 10px}
+.th-email .status font,.th-phone .status font{color:#0b73bb}
+.th-email .alt{color:#999; margin-top: 3px}
+.th-email .link{ margin-top: 15px}
+.th-email .ask-tit{font-size:18px; font-family: "寰蒋闆呴粦",Microsoft YaHei; font-weight: normal;color:#545454; margin-top: 25px}
+.th-email .ans-list{ color:#333; margin-top: 10px; line-height: 20px}
+.th-email .resh-get{ margin-top: 10px}
+/*02 phone*/
+.th-phone .tit{font-size: 22px}
+.th-phone{width: 680px; padding:69px 100px 180px 220px; background:#fff url(../r/sign/phone-icon.jpg) 125px 69px no-repeat}
+.th-phone .alt{ margin-top: 5px; color:#666}
+.th-phone .control-group{ margin-top: 15px}
+.th-phone .controls{ margin-left: 0px; margin-right: 10px; _margin-right: 5px; _margin-top: -2px}
+.th-phone .controls input{ width: 150px}
+.th-phone .control-group .butn{ font-weight: bold}
+.th-phone .resh-time{color:#666}
+/*02 channel*/
+.th-channel{ width:940px; padding:60px 0px 60px 60px}
+.th-channel .tit{ _line-height: 25px}
+.th-channel .tit h3{float: left}
+.th-channel .tit span{ color:#999; font-size:12px; float: left; margin: 7px 0 0 5px}
+.th-channel .channel-item{ margin-top: 20px}
+.th-channel .channel-item li{border:1px solid #dcdcdc; float: left; width:281px; height: 90px; margin: 10px 20px 10px 0; cursor: pointer; position: relative}
+.th-channel .channel-item em{ background: url(../r/sign/channel-icon.gif) no-repeat; display: block; float: left; margin: 20px 20px 0 20px}
+.th-channel .channel-item em.p1{background-position:0 -350px; width:55px; height: 49px}
+.th-channel .channel-item em.p2{background-position:0 -151px; width:49px; height: 49px}
+.th-channel .channel-item em.p3{background-position:0 -256px; width:51px; height: 49px}
+.th-channel .channel-item em.p4{background-position:0 -51px; width:54px; height: 50px}
+.th-channel .channel-item em.p5{background-position:0 -306px; width:50px; height: 44px}
+.th-channel .channel-item em.p6{background-position:0 0; width:51px; height: 51px}
+.th-channel .channel-item em.p7{background-position:0 -101px; width:43px; height: 50px}
+.th-channel .channel-item em.p8{background-position:0 -200px; width:45px; height: 55px}
+.th-channel .channel-item em.p9{background-position:0 -407px; width:58px; height: 49px; margin-top:22px}
+.th-channel .channel-item span{font-size: 18px; color:#545454; font-family:"寰蒋闆呴粦",Microsoft YaHei;float:left; margin-top: 35px }
+.th-channel .sub-btn{ text-align: center; margin: 40px 60px 0 0}
+.th-channel .sub-btn .butn{padding:2px 28px 5px; font-weight: bold} 
+/*02 channel pep*/
+.th-channelpep{}
+.th-channelpep .tit h4{ float: right; font-size:18px;font-family:Arial,Helvetica,sans-serif,"瀹嬩綋"; font-weight: normal; color:#777; margin-right: 50px}
+.th-channelpep .user-list{ width: 251px; height: 60px;padding:15px; border:1px solid #dcdcdc; overflow: hidden; float: left; margin: 20px 20px 0 0; position: relative; cursor: pointer}
+.th-channelpep .user-list dt{ float: left; width:}
+.th-channelpep .user-list dt img{ width: 53px; height: 53px; border-radius: 5px}
+.th-channelpep .user-list dd{float: left; width:185px; margin-left: 10px}
+.th-channelpep .user-list dd .tit{font-size:14px; color:#333}
+.th-channelpep .user-list dd .denj{color:#fa5e00}
+.th-channelpep .user-list dd .desc{color:#999}
+.th-channelpep .oper-btn{ text-align: right; margin: 15px 50px 0 0}
+.th-channelpep .oper-btn .butn{margin-left: 10px}
+.th-channelpep dl.cur em.yes,.th-channel .channel-item li.cur em.yes{ display: block; width:53px; height: 53px; background: url(../r/sign/channel-cur.png) no-repeat; position: absolute; top:0px; right: -1px;_background-image:none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://t.v5.zbj.com/r/sign/channel-cur.png");}
+.th-channelpep dl.cur,.th-channel .channel-item li.cur{border: 1px solid #ffa200; background-color: #fff3ae}
+.th-channel .channel-item li:hover,.th-channelpep dl:hover,.th-channel .channel-item li.hover,.th-channelpep dl.hover{border: 1px solid #ffa200; }
+.th-channel .channel-item li.cur em.yes{ top:-20px;right:-21px}
+/*02 sign 2*/
+.th-sign .login-list{ margin: 89px 0 89px 144px}
+.th-sign .login-list li{float: left; margin: 0 25px 25px 0}
+/*02 share*/
+.th-share{ width: 832px; padding:64px 84px}
+.th-share .tit{}
+.th-share .tit h3,.share-weibo .weibo-tit h5,.th-uphimg .tit h3{font-weight: normal; color:#535353; float: left; line-height: 28px;font-family:"寰蒋闆呴粦",Microsoft YaHei}
+.th-share .tit h3{font-size:26px}
+.th-share .tit span{ float: left; color:#999; margin:5px 10px}
+.share-weibo{ padding: 55px 125px}
+.share-weibo .weibo-tit{}
+.share-weibo .weibo-tit h5{ font-size:18px}
+.share-weibo .weibo-tit span{color:#ff4e00; font-size:14px; float: left; margin-top: 5px}
+.share-weibo textarea{ width: 570px; height: 90px; border:1px solid #dcdcdc; padding:5px; margin: 10px 0; color:#666; font-size:14px}
+.share-weibo .wchek{color:#666}
+.share-weibo .wchek span{float: right}
+.share-weibo .wchek input{width: auto; vertical-align: middle; float: left;_margin-top: -2px}
+.share-weibo .sub-btn{ text-align: center; margin-top: 40px}
+.share-weibo .sub-btn .butn{ padding: 2px 25px 5px; font-weight: bold; margin: 0 10px}
+/*02 uphear*/
+.th-uphimg{ width: 820px; padding:63px 90px}
+.th-uphimg .tit h3{font-size:22px}
+.th-uphimg .hear-img{ width:200px; height:200px; border:1px solid #eaeaea; padding:7px; margin: 30px auto}
+.th-uphimg .hear-img a{display: block; width: 200px; height: 200px; background: url(../r/sign/upload-himg.jpg) no-repeat; position: relative; overflow: hidden}
+.th-uphimg .hear-img a:hover{background: url(../r/sign/upload-himgdf.jpg) no-repeat}
+.th-uphimg .hear-img a img{width:200px; height: 200px}
+.th-uphimg .hear-img a span{display: block; height: 37px; width:100%; bottom: 0px; position: absolute; line-height: 37px; text-align: center; background-color: #000;opacity:0.7; filter:alpha(opacity=70); font-size: 14px; color:#fff}
+.th-uphimg .controls{ margin: 0 auto; width:400px; float: none}
+.th-uphimg .controls input{width: 388px}
+.th-uphimg .controls .help-inline{ position: absolute;width: 200px}
+.th-uphimg .sub-btn{ text-align: center; margin-top: 30px}
+.th-uphimg .sub-btn .butn{font-weight: bold}
+
+.th-success{ width:830px; padding:60px 85px 120px 85px}
+.th-success .tit h3{ font-size:22px; color:#535353;font-weight:normal; font-family: "寰蒋闆呴粦",Microsoft YaHei; }
+.succ-item{ margin-top: 60px}
+.succ-item dl{float: left; width:340px; padding:30px}
+.succ-item dl dt{width:75px; height: 75px; background: url(../r/sign/success-1.jpg) no-repeat; float: left; margin-right: 20px}
+.succ-item dd{float: left; width:240px; font-size:14px; color:#999}
+.succ-item dd h3{ color:#535353; font-size:18px; font-family: "寰蒋闆呴粦",Microsoft YaHei; font-weight: normal; margin-bottom: 10px}
+.succ-item dl.right{border-left: 1px solid #e4e4e4}
+.succ-item dl.right dt{background: url(../r/sign/success-2.jpg) no-repeat}
+.th-success .no-item{ text-align: center; font-size:16px;font-family: "寰蒋闆呴粦",Microsoft YaHei; margin-top:60px}
+.th-success .no-item a{font-family:"瀹嬩綋"; font-size:12px}
+
+.th-uphimg{}
+.th-uphimg .xieyi{ padding-left: 210px; color:#999}
+.th-uphimg .xieyi input{width: auto}
+/*鍗忚*/
+.xy-box{height: 300px; overflow-x: hidden; padding: 10px; overflow-y: auto; border: 1px solid rgb(199, 199, 199); margin-left: 110px; width: 450px; margin-top: 5px; display: none}
+
+/*鐧诲綍浼樺寲*/
+.ui-logined i {display:block;position:absolute;height:15px;width:15px;top:12px;left:192px;background:url(../r/sign/close.png) no-repeat center center;cursor:pointer;}
+.ui-logined i:hover,.ui-logined i.hover{ background: url(../r/sign/close-hover.jpg) no-repeat}
+.ui-logined input {background:#FFEEA0;box-shadow:none;}
+/*鏂版墜鏈烘敞鍐� 2013-04-08*/
+.new-sign-main .th-channel{padding:60px 0 60px 200px;width:800px}
+.model-main{width:1000px; margin:0 auto}
+.bind-weibo{ margin: 50px 0}
+.bind-weibo li{float: left;width:80px; height: 105px; margin-right: 60px}
+.bind-weibo .fx-pub{display: block;width:73px; height: 73px; background: url(../r/sign/new-sign-btn.gif) no-repeat; text-align: center}
+.bind-weibo .fx-pub em{display: inline-block; width:32px; height: 32px; background: url(../r/sign/new-sign-fx.gif) no-repeat; margin-top:20px}
+.bind-weibo .fx-pub em.xn{background-position: 0px 0px}
+.bind-weibo .fx-pub em.qq{background-position: 0px -126px}
+.bind-weibo .fx-pub em.rr{background-position: 0px -84px}
+.bind-weibo .fx-pub em.tb{background-position: 0px -168px}
+.bind-weibo .fx-pub em.db{background-position: 0px -42px}
+.bind-weibo .fx-butn{display: block;width:79px; height: 22px; color:#fff; background: url(../r/sign/new-sign-btn.gif) -1px -198px no-repeat; text-align: center; margin-top:10px}
+.bind-weibo li:hover .fx-butn,.bind-weibo li.hover .fx-butn{background-position: -1px -166px;text-decoration: none}
+.bind-weibo li:hover .fx-pub,.bind-weibo li.hover .fx-pub,.bind-weibo li.cur .fx-pub{ background-position: 0px -83px}
+.bind-weibo li:hover .fx-pub em.xn,.bind-weibo li.hover .fx-pub em.xn,.bind-weibo li.cur .fx-pub em.xn{background-position: 0px -252px}
+.bind-weibo li:hover .fx-pub em.qq,.bind-weibo li.hover .fx-pub em.qq,.bind-weibo li.cur .fx-pub em.qq{background-position: 0px -210px}
+.bind-weibo li:hover .fx-pub em.rr,.bind-weibo li.hover .fx-pub em.rr,.bind-weibo li.cur .fx-pub em.rr{background-position: 0px -294px}
+.bind-weibo li:hover .fx-pub em.tb,.bind-weibo li.hover .fx-pub em.tb,.bind-weibo li.cur .fx-pub em.tb{background-position: 0px -378px}
+.bind-weibo li:hover .fx-pub em.db,.bind-weibo li.hover .fx-pub em.db,.bind-weibo li.cur .fx-pub em.db{background-position: 0px -336px}
+.bind-weibo li.cur .fx-butn{background-position: -1px -230px;color:#666;font-size:14px; line-height: 22px}
+.btn-beign{width:640px; margin-bottom: 70px}
+
+.new-sign-main .atten-pepor{background-color: #e3f2f9;width:451px;padding:10px 0}
+.new-sign-main .atten-pepor li{float: left;width:50px; margin-left: 15px;overflow: hidden; position: relative; cursor: pointer}
+.new-sign-main .atten-pepor li.cur em{ position: absolute;bottom:0px;right:0px;display: block;width:18px; height: 18px; background: url(../r/p/pic.png) 0 -45px no-repeat;}
+.new-sign-main .atten-pepor img{width:50px; height: 50px}
+.new-sign-main .atten-conten dt{float:left; width:50px;text-align: center}
+.new-sign-main .atten-conten dt a{color:#333}
+.new-sign-main .atten-conten dd{float: left;margin-left: 10px;color:#333}
+.new-sign-main .atten-conten textarea{border: 1px solid #dcdcdc;width:560px;height: 100px;padding:10px}
+.new-sign-main .atten-conten input{vertical-align: middle}
+
+.select-sign-type{padding-left: 115px;padding-top:5px;font-size:14px}
+.blur-fb14{color:#7bbbde;font-size:14px; font-weight: bold;font-family: "寰蒋闆呴粦",Microsoft YaHei; margin-top: 30px}
+.sign-other-login{padding-left:25px;padding-bottom:15px;}
+.phone-sign{margin-top: 15px;border-top:1px dashed #e1e1e1}
+.phone-sign li{ text-align: center; margin-top: 10px}
+.phone-sign .orange-tit{color: #ff8a00;font-size:14px;font-family: "寰蒋闆呴粦",Microsoft YaHei}
+.phone-sign strong{font-size:16px; color:#ff8a00}
+
+.set-account h3{color:#fdb35b;font-size:20px; font-weight: normal;font-family: "寰蒋闆呴粦",Microsoft YaHei}
+.account-user-infor{background-color: #e3f2f9;width:365px; margin-top: 40px;padding: 10px}
+.account-user-infor dt{float: left;width:48px; padding-right: 10px}
+.account-user-infor dt img{width: 48px; height: 48px}
+.account-user-infor dd{font-size:14px; color:#2d9cd9;font-family: "寰蒋闆呴粦",Microsoft YaHei;font-weight: bold; float: left;width:300px}
+.account-user-infor dd span{color:#999;font-weight: normal}
+.set-account .account-btn{padding:30px 0 0 200px}
+.set-account input{width:200px}
+
+.world-set-account h3{font-size:24px;color:#333;font-family: "寰蒋闆呴粦",Microsoft YaHei;font-weight: normal}
+.world-set-account .controls .max-butn{padding-left:2px; padding-right:2px;font-size:14px}
+.world-set-account .no-phone{padding-left: 150px;padding-top:10px}
+.world-set-account .account-btn{padding-left:280px;padding-top:20px}
+#signup #sign-verifycode-request { float: left; margin-left: 5px; width:120px;}
+.email-type #sign-verifycode-request, .email-type .verifycode-wrap { display: none;}

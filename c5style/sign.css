@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.loginFormIpt {position: relative;width: 42px;height: 42px;line-height: 42px;margin: 0 0 20px 20px;padding-right: 5px;z-index: 2;}
+.loginFormIpt input{width: 276px; height: 40px; border: 0.5px solid rgba(0,0,0,.4);}
+.loginFormIpt .ico {position: absolute; left: 9px; top: 13px; z-index: 1;}
+.ico-uid {width: 24px; height: 24px; background-image:url('/c5style/icon/sign/user.png'); background-repeat:no-repeat;	background-size:16px 16px;}
+.ico-pwd {width: 24px; height: 24px; background-image:url('/c5style/icon/sign/pwd.png'); background-repeat:no-repeat;	background-size:16px 16px;}
+
+.btn-sign {width: 330px; height: 42px;font-family:"Microsoft YaHei","微软雅黑","MicrosoftJhengHei","华文细黑",STHeiti,MingLiu;
+	border: 0.5px solid rgba(255,255,255,.4); -moz-border-radius: 4px; -webkit-border-radius: 4px;
+    border-radius: 4px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+    display:block; font-size:18px; color:#ccc; padding-left:20px; padding-right:20px; margin-bottom:20px;
+}
+
+
+
